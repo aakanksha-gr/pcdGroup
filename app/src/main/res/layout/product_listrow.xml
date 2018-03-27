@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp" >
+
+    <!-- Thumbnail Image -->
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp" />
+
+    <!-- Movie Title -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/thumbnail"
+        android:textColor="@color/BlueViolet"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <!-- Rating -->
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginTop="8dip"
+        android:textSize="20dp"
+        android:textColor="@color/Black"
+        android:layout_toLeftOf="@+id/thumbnail"
+        />
+
+    <TextView
+        android:id="@+id/qunt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/price"
+        android:layout_marginTop="8dip"
+        android:textSize="20dp"
+        android:textColor="@color/Black"
+        android:layout_toLeftOf="@+id/thumbnail"
+        />
+
+
+    <TextView
+        android:id="@+id/HSNCode"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/thumbnail"
+        android:layout_marginTop="8dip"
+        android:gravity="left|center_vertical"
+        android:textColor="@color/Black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/GST"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/HSNCode"
+        android:layout_alignBottom="@+id/HSNCode"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/Black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/Stock"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/HSNCode"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/Black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/Reorderlevel"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Stock"
+        android:layout_alignBottom="@+id/Stock"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/Black"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/Descriprion"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dip"
+        android:layout_below="@+id/Reorderlevel"
+        android:textSize="20dp"
+        android:textColor="@color/Black"
+        />
+
+
+</RelativeLayout>

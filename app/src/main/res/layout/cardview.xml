@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardview1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="6dp"
+    card_view:cardElevation="6dp"
+    card_view:contentPadding="7dp"
+    android:padding="10dp"
+    android:layout_margin="7dp"
+    card_view:cardBackgroundColor="#ADD8E6"
+    >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+            <TextView
+                android:id="@+id/tvname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:textSize="20dp"
+                android:text="Name "
+                android:textStyle="bold"
+                android:textColor="#FF1493"
+                />
+
+            <TextView
+                android:id="@+id/tvtype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"
+                android:text="Type"
+                android:textStyle="bold"
+                android:textColor="@color/Gray"
+                />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Address : "
+                android:textStyle="bold"
+                android:textColor="@color/Black"
+                />
+
+            <TextView
+                android:id="@+id/tvaddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:text="address Show"
+                android:textColor="#8A2BE2"/>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvaddressline1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:text="addressline1 Show"
+                android:textColor="#8A2BE2"
+                tools:ignore="DuplicateIds" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvaddressline2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="addressline2 Show"
+                android:textColor="#8A2BE2"
+                tools:ignore="DuplicateIds" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/mobileno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Mobileno : "
+                android:textStyle="bold"
+                android:textColor="@color/Black"
+                />
+
+            <TextView
+                android:id="@+id/tv_Mobileno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Mobileno Show"
+                android:textColor="#8A2BE2"
+                tools:ignore="DuplicateIds" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:text="State : "
+                android:textStyle="bold"
+                android:textColor="@color/Black"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/tv_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:text="State Show"
+                android:textColor="#8A2BE2"
+                tools:ignore="DuplicateIds" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/Country"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Country : "
+                android:textStyle="bold"
+                android:textColor="@color/Black"
+                />
+
+            <TextView
+                android:id="@+id/tvCountry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Country Show"
+                android:textColor="#8A2BE2"
+                tools:ignore="DuplicateIds" />
+        </TableRow>
+        <TableRow>
+
+
+            <TextView
+                android:id="@+id/companyname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Company_name : "
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/Black"
+                />
+
+            <TextView
+                android:id="@+id/tv_companyname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:text=" company_name Show"
+                android:textColor="#8A2BE2"
+                />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/pin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Pin : "
+                android:textStyle="bold"
+                android:textColor="@color/Black"
+                />
+
+            <TextView
+                android:id="@+id/tvpin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Pin Show"
+                android:textColor="#8A2BE2"
+                tools:ignore="DuplicateIds" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Email_ID : "
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/Black"
+                />
+
+            <TextView
+                android:id="@+id/tvemailid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:text="email_id Show"
+                android:textColor="#8A2BE2"
+                />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/designation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Designation : "
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/Black"
+                />
+
+            <TextView
+                android:id="@+id/tvdesignation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:text="designation Show"
+                android:textColor="#8A2BE2"
+                />
+
+        </TableRow>
+
+    </TableLayout>
+
+</android.support.v7.widget.CardView>
